@@ -1,4 +1,4 @@
-/* line 1, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 1, ../../V3/miniOpgave/css/style.scss */
 html,
 body,
 h1,
@@ -10,31 +10,31 @@ article {
   margin: 0;
   padding: 0; }
 
-/* line 13, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 13, ../../V3/miniOpgave/css/style.scss */
 .navContainer {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
   height: 50px; }
 
-/* line 20, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 20, ../../V3/miniOpgave/css/style.scss */
 img {
   display: block;
   width: 100%;
   height: auto; }
 
-/* line 26, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 26, ../../V3/miniOpgave/css/style.scss */
 h3 {
   float: left;
   line-height: 50px;
   background-color: yellow; }
 
-/* line 33, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 33, ../../V3/miniOpgave/css/style.scss */
 nav ul {
   margin: 0;
   padding: 0; }
 
-/* line 37, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 37, ../../V3/miniOpgave/css/style.scss */
 nav li {
   list-style: none;
   float: right;
@@ -42,13 +42,20 @@ nav li {
   background-color: yellow;
   padding: 0 0 0 20px; }
 
-/* line 44, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 44, ../../V3/miniOpgave/css/style.scss */
 nav a {
   text-decoration: none; }
 
-/* line 50, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/style.scss */
+/* line 50, ../../V3/miniOpgave/css/style.scss */
 header .banner {
   background-image: url(../img/jumbotronbackgroundedit2.jpg);
   height: 250px; }
+
+/* line 56, ../../V3/miniOpgave/css/style.scss */
+.bannerContainer {
+  margin: 0 auto;
+  padding-top: 85px;
+  max-width: 1200px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
