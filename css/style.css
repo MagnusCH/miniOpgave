@@ -1,7 +1,42 @@
 /* line 1, miniOpgave/css/style.scss */
 html,
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+article {
   margin: 0;
   padding: 0; }
+
+/* line 13, miniOpgave/css/style.scss */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%; }
+
+/* line 19, miniOpgave/css/style.scss */
+h3 {
+  float: left;
+  line-height: 50px;
+  background-color: yellow; }
+
+/* line 26, miniOpgave/css/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 30, miniOpgave/css/style.scss */
+nav li {
+  list-style: none;
+  float: right;
+  line-height: 50px;
+  background-color: yellow;
+  padding: 0 0 0 20px; }
+
+/* line 37, miniOpgave/css/style.scss */
+nav a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
