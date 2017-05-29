@@ -1,4 +1,4 @@
-/* line 1, miniOpgave/css/style.scss */
+/* line 1, ../../V3/miniOpgave/css/style.scss */
 html,
 body,
 h1,
@@ -8,75 +8,80 @@ h4,
 p,
 article {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: arial, verdana; }
 
-/* line 13, miniOpgave/css/style.scss */
+/* line 14, ../../V3/miniOpgave/css/style.scss */
 .navContainer {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  height: 50px; }
+  height: 50px;
+  color: #777777; }
 
-/* line 20, miniOpgave/css/style.scss */
+/* line 22, ../../V3/miniOpgave/css/style.scss */
 img {
   display: block;
   width: 100%;
   height: auto; }
 
-/* line 26, miniOpgave/css/style.scss */
+/* line 28, ../../V3/miniOpgave/css/style.scss */
 h3 {
   float: left;
-  line-height: 50px;
-  background-color: yellow; }
+  line-height: 50px; }
 
-/* line 33, miniOpgave/css/style.scss */
+/* line 34, ../../V3/miniOpgave/css/style.scss */
 nav ul {
   margin: 0;
   padding: 0; }
 
-/* line 37, miniOpgave/css/style.scss */
+/* line 38, ../../V3/miniOpgave/css/style.scss */
 nav li {
   list-style: none;
   float: right;
   line-height: 50px;
-  background-color: yellow;
   padding: 0 0 0 20px; }
 
-/* line 44, miniOpgave/css/style.scss */
+/* line 44, ../../V3/miniOpgave/css/style.scss */
 nav a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #777777; }
 
-/* line 50, miniOpgave/css/style.scss */
+/* line 51, ../../V3/miniOpgave/css/style.scss */
 header .banner {
   background-image: url(../img/jumbotronbackgroundedit2.jpg);
   height: 250px; }
 
-/* line 56, miniOpgave/css/style.scss */
+/* line 57, ../../V3/miniOpgave/css/style.scss */
 .bannerContainer {
   margin: 0 auto;
-  padding-top: 85px;
+  padding-top: 75px;
   max-width: 1200px;
-  width: 100%; }
+  width: 100%;
+  color: white; }
+  /* line 63, ../../V3/miniOpgave/css/style.scss */
+  .bannerContainer h1 {
+    font-size: 60px; }
 
-/* line 65, miniOpgave/css/style.scss */
+/* line 69, ../../V3/miniOpgave/css/style.scss */
 .wrapper {
   margin: 30px auto;
   max-width: 1200px;
   width: 100%; }
 
-/* line 71, miniOpgave/css/style.scss */
+/* line 75, ../../V3/miniOpgave/css/style.scss */
 main {
   display: flex;
   justify-content: space-between; }
-  /* line 74, miniOpgave/css/style.scss */
+  /* line 78, ../../V3/miniOpgave/css/style.scss */
   main article {
     width: 30%; }
-  /* line 77, miniOpgave/css/style.scss */
+  /* line 81, ../../V3/miniOpgave/css/style.scss */
   main figure {
     margin: 0;
     padding: 0; }
 
-/* line 85, miniOpgave/css/style.scss */
+/* line 89, ../../V3/miniOpgave/css/style.scss */
 footer {
   text-align: center; }
 
