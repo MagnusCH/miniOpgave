@@ -61,3 +61,27 @@ header {
     h1 {}
     h2 {}
 }
+
+.wrapper {
+    margin: 30px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    article {
+        width: 30%;
+    }
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+    img {}
+    figcaption {}
+}
+
+footer {
+    text-align: center;
+}
