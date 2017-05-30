@@ -1,0 +1,42 @@
+@import 'default.scss';
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    article {
+        width: 30%;
+        margin-top: 30px;
+    }
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+    img {}
+    figcaption {}
+    h4 {
+        line-height: 80px;
+        font-size: 26px;
+    }
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: underline;
+        transition-delay: 0.5s;
+    }
+}
