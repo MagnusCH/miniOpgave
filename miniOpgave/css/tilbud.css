@@ -1,0 +1,123 @@
+/* line 1, ../../V3/miniOpgave/css/default.scss */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+article {
+  margin: 0;
+  padding: 0;
+  font-family: arial, verdana; }
+
+/* line 14, ../../V3/miniOpgave/css/default.scss */
+.navContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 50px;
+  color: #777777; }
+
+/* line 22, ../../V3/miniOpgave/css/default.scss */
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+/* line 28, ../../V3/miniOpgave/css/default.scss */
+h3 {
+  float: left;
+  line-height: 50px;
+  color: #777777; }
+
+/* line 35, ../../V3/miniOpgave/css/default.scss */
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 39, ../../V3/miniOpgave/css/default.scss */
+nav li {
+  list-style: none;
+  float: right;
+  line-height: 50px;
+  padding: 0 10px 0 10px; }
+
+/* line 45, ../../V3/miniOpgave/css/default.scss */
+nav li:hover {
+  background-color: #E0D7D1;
+  transition: 0.5s; }
+
+/* line 49, ../../V3/miniOpgave/css/default.scss */
+nav a {
+  text-decoration: none;
+  color: #777777; }
+
+/* line 56, ../../V3/miniOpgave/css/default.scss */
+header .banner {
+  background-image: url(../img/jumbotronbackgroundedit2.jpg);
+  height: 250px; }
+
+/* line 62, ../../V3/miniOpgave/css/default.scss */
+.bannerContainer {
+  margin: 0 auto;
+  padding-top: 75px;
+  max-width: 1200px;
+  width: 100%;
+  color: white; }
+  /* line 68, ../../V3/miniOpgave/css/default.scss */
+  .bannerContainer h1 {
+    font-size: 60px; }
+
+/* line 74, ../../V3/miniOpgave/css/default.scss */
+footer {
+  margin-top: 40px;
+  text-align: center; }
+
+/* line 2, ../../V3/miniOpgave/css/tilbud.scss */
+.slideWrapper {
+  margin: 30px auto;
+  max-width: 900px;
+  width: 100%; }
+
+/* line 8, ../../V3/miniOpgave/css/tilbud.scss */
+.wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%; }
+
+/* line 14, ../../V3/miniOpgave/css/tilbud.scss */
+.fadein {
+  width: 900px;
+  height: auto;
+  position: relative; }
+
+/* line 20, ../../V3/miniOpgave/css/tilbud.scss */
+.fadein img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: auto; }
+
+/* line 29, ../../V3/miniOpgave/css/tilbud.scss */
+.fadein img:not(:first-child) {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* line 35, ../../V3/miniOpgave/css/tilbud.scss */
+article {
+  position: relative;
+  text-align: center;
+  padding-top: 73%; }
+  /* line 39, ../../V3/miniOpgave/css/tilbud.scss */
+  article h4 {
+    font-size: 30px; }
+
+/* line 44, ../../V3/miniOpgave/css/tilbud.scss */
+footer {
+  position: relative; }
+
+/*# sourceMappingURL=tilbud.css.map */
