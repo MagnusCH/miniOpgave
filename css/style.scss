@@ -39,7 +39,11 @@ nav {
         list-style: none;
         float: right;
         line-height: 50px;
-        padding: 0 0 0 20px;
+        padding: 0 10px 0 10px;
+    }
+    li:hover {
+        background-color: #E0D7D1;
+        transition: 0.5s;
     }
     a {
         text-decoration: none;
@@ -84,8 +88,28 @@ main {
     }
     img {}
     figcaption {}
+    h4 {
+        line-height: 80px;
+        font-size: 26px;
+    }
+    button {
+        margin-top: 15px;
+        border-radius: 5px;
+        border-style: solid;
+        background-color: white;
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: underline;
+        transition-delay: 0.5s;
+    }
 }
 
 footer {
+    margin-top: 40px;
     text-align: center;
 }
