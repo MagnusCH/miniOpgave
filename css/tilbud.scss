@@ -1,0 +1,46 @@
+@import 'default.scss';
+.slideWrapper {
+    margin: 30px auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.fadein {
+    width: 900px;
+    height: auto;
+    position: relative;
+}
+
+.fadein img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.fadein img:not(:first-child) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+article {
+    position: relative;
+    text-align: center;
+    padding-top: 73%;
+    h4 {
+        font-size: 30px;
+    }
+}
+
+footer {
+    position: relative;
+}
