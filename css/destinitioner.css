@@ -1,4 +1,4 @@
-/* line 1, miniOpgave/css/default.scss */
+/* line 1, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 html,
 body,
 h1,
@@ -11,7 +11,13 @@ article {
   padding: 0;
   font-family: arial, verdana; }
 
-/* line 14, miniOpgave/css/default.scss */
+/* line 14, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
+body {
+  background: url(../img/repeatingtile.jpg) cover;
+  background-repeat: repeat;
+  height: 500px; }
+
+/* line 20, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 .navContainer {
   margin: 0 auto;
   max-width: 1200px;
@@ -19,97 +25,97 @@ article {
   height: 50px;
   color: #777777; }
 
-/* line 22, miniOpgave/css/default.scss */
+/* line 28, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 img {
   display: block;
   width: 100%;
   height: auto; }
 
-/* line 28, miniOpgave/css/default.scss */
+/* line 34, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 h3 {
   float: left;
   line-height: 50px;
   color: #777777; }
 
-/* line 35, miniOpgave/css/default.scss */
+/* line 41, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 nav ul {
   margin: 0;
   padding: 0; }
 
-/* line 39, miniOpgave/css/default.scss */
+/* line 45, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 nav li {
   list-style: none;
   float: right;
   line-height: 50px;
   padding: 0 10px 0 10px; }
 
-/* line 45, miniOpgave/css/default.scss */
+/* line 51, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 nav li:hover {
   background-color: #E0D7D1;
   transition: 0.5s; }
 
-/* line 49, miniOpgave/css/default.scss */
+/* line 55, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 nav a {
   text-decoration: none;
   color: #777777; }
 
-/* line 56, miniOpgave/css/default.scss */
+/* line 62, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 header .banner {
   background-image: url(../img/jumbotronbackgroundedit2.jpg);
   height: 250px; }
 
-/* line 62, miniOpgave/css/default.scss */
+/* line 68, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 .bannerContainer {
   margin: 0 auto;
   padding-top: 75px;
   max-width: 1200px;
   width: 100%;
   color: white; }
-  /* line 68, miniOpgave/css/default.scss */
+  /* line 74, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
   .bannerContainer h1 {
     font-size: 60px; }
 
-/* line 74, miniOpgave/css/default.scss */
+/* line 80, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/default.scss */
 footer {
   margin-top: 40px;
   text-align: center; }
 
-/* line 2, miniOpgave/css/destinitioner.scss */
+/* line 2, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%; }
 
-/* line 8, miniOpgave/css/destinitioner.scss */
+/* line 8, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
 main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  /* line 12, miniOpgave/css/destinitioner.scss */
+  /* line 12, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
   main article {
     width: 30%;
     margin-top: 30px; }
-  /* line 16, miniOpgave/css/destinitioner.scss */
+  /* line 16, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
   main figure {
     margin: 0;
     padding: 0; }
-  /* line 22, miniOpgave/css/destinitioner.scss */
+  /* line 22, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
   main h4 {
     line-height: 80px;
     font-size: 26px; }
 
-/* line 28, miniOpgave/css/destinitioner.scss */
+/* line 28, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
 button {
   margin-top: 15px;
   border-radius: 5px;
   border-style: solid;
   background-color: white;
   padding: 10px; }
-  /* line 34, miniOpgave/css/destinitioner.scss */
+  /* line 34, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
   button a {
     text-decoration: none;
     color: black; }
-  /* line 38, miniOpgave/css/destinitioner.scss */
+  /* line 38, ../../Users/magn0811/Documents/aspitV3/uge22/miniOpgave/css/destinitioner.scss */
   button a:hover {
     text-decoration: underline;
     transition-delay: 0.5s; }
